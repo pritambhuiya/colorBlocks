@@ -42,7 +42,7 @@ const colorBlocks = function (numberOfBlocks) {
   const container = colorBlocksContainer(colorBlocks);
   const pageContents = generatePage(container);
 
-  fs.writeFileSync('colorBlocks.html', pageContents, 'utf8');
+  fs.writeFileSync('index.html', pageContents, 'utf8');
 };
 
 colorBlocks(1000);
